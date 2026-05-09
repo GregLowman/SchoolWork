@@ -1,0 +1,6 @@
+Code is poetry.
+2 3 5 8 12 17 
+4 0
+264 3
+gamfeg
+5 4 1 6 2 3

@@ -1,0 +1,7 @@
+6
+S..XXX
+X.X..X
+..R.XX
+XX.X.X
+X....X
+XXX.EX

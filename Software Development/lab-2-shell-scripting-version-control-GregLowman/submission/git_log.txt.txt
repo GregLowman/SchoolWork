@@ -1,0 +1,71 @@
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git log --graph
+* commit 84c395b985502de1126acd2c4050474cda403ae2 (HEAD -> My_Branch, origin/My_Branch)
+| Author: Greg Lowman <greg.lowman@colorado.edu>
+| Date:   Thu Jan 22 16:18:13 2026 -0700
+|
+|     "Testing Commit"
+|
+*   commit 682074d3a54c727528cd96031665bff4b1c514b2
+|\  Merge: 01996b7 7ef5bce
+| | Author: Greg Lowman <greg.lowman@colorado.edu>
+| | Date:   Thu Jan 22 13:52:17 2026 -0700
+| |
+| |     Mergin changes with return value 1
+| |
+| * commit 7ef5bced3ca9c9c6b75fe5131cfb6f2bfb865c16 (main)
+| | Author: Greg Lowman <greg.lowman@colorado.edu>
+| | Date:   Thu Jan 22 13:49:33 2026 -0700
+| |
+| |     Version - main 2
+| |
+* | commit 01996b7318e2b680241be488186e9763e5e9abe8 (Greg's_Branch)
+|/  Author: Greg Lowman <greg.lowman@colorado.edu>
+|   Date:   Thu Jan 22 13:26:54 2026 -0700
+|
+|       Version - Greg : 1
+|
+* commit ba93c2b87ed7978196902883713ccc666922b3b1
+| Author: Greg Lowman <greg.lowman@colorado.edu>
+| Date:   Thu Jan 22 13:23:49 2026 -0700
+|
+|     updated README.md with team details
+|
+* commit c937234af4a15d8aecbc5a33305be9db7c6df4bf
+  Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+  Date:   Mon Jan 19 20:46:05 2026 +0000
+
+      Initial commit
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git log main.cpp
+commit 682074d3a54c727528cd96031665bff4b1c514b2
+Merge: 01996b7 7ef5bce
+Author: Greg Lowman <greg.lowman@colorado.edu>
+Date:   Thu Jan 22 13:52:17 2026 -0700
+
+    Mergin changes with return value 1
+
+commit 7ef5bced3ca9c9c6b75fe5131cfb6f2bfb865c16 (main)
+Author: Greg Lowman <greg.lowman@colorado.edu>
+Date:   Thu Jan 22 13:49:33 2026 -0700
+
+    Version - main 2
+
+commit 01996b7318e2b680241be488186e9763e5e9abe8 (Greg's_Branch)
+Author: Greg Lowman <greg.lowman@colorado.edu>
+Date:   Thu Jan 22 13:26:54 2026 -0700
+
+    Version - Greg : 1
+
+commit c937234af4a15d8aecbc5a33305be9db7c6df4bf
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Mon Jan 19 20:46:05 2026 +0000
+
+    Initial commit
+
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$
+
+
+
+
+
+Question 1
+	Thursday Janurary 22

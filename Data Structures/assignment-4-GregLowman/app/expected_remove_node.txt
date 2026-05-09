@@ -1,0 +1,24 @@
+Select a numerical option:
++=====Main Menu=========+
+ 1. Produce loop and find loop length in the playlist 
+ 2. Remove part of music playlist 
+ 3. Merge music playlists 
++-----------------------+
+#> Option is: 2
+How many songs do you want to enter? 5
+Enter song details (songName;artistNames;liked): Blinding Lights;The Weeknd;1
+Enter song details (songName;artistNames;liked): Closer;Chainsmokers;0
+Enter song details (songName;artistNames;liked): Perfect;Ed Sheeran;1
+Enter song details (songName;artistNames;liked): Hello;Adele;0
+Enter song details (songName;artistNames;liked): Shape of you;Ed Sheeran;1
+Displaying songs
+==================
+[ Blinding Lights, The Weeknd, <3 ] -> [ Closer, Chainsmokers, </3 ] -> [ Perfect, Ed Sheeran, <3 ] -> [ Hello, Adele, </3 ] -> [ Shape of you, Ed Sheeran, <3 ] -> NULL
+==================
+Enter the start node number: 2
+Enter the end node number: 4
+Executing removeSong() Function...
+Displaying songs
+==================
+[ Blinding Lights, The Weeknd, <3 ] -> [ Shape of you, Ed Sheeran, <3 ] -> NULL
+==================

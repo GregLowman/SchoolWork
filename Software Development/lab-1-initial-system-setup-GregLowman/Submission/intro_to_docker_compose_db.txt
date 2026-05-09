@@ -1,0 +1,37 @@
+glowman@GregsLaptop:~/lab-1-initial-system-setup-GregLowman$ docker compose exec db psql -U postgres
+psql (14.20 (Debian 14.20-1.pgdg13+1))
+Type "help" for help.
+
+postgres=# CREATE DATABASE practicedb;
+CREATE DATABASE
+postgres=# \c practicedb;
+You are now connected to database "practicedb" as user "postgres".
+practicedb=# CREATE TABLE IF NOT EXISTS store (
+  id SERIAL,
+  product_name VARCHAR(40) NOT NULL,
+  qty INTEGER NOT NULL,
+  price FLOAT NOT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO store
+  (product_name, qty, price)
+VALUES
+  ('apple', 10, 1),
+  ('pear', 5, 2),
+  ('banana', 10, 1.5),
+  ('lemon', 100, 0.1),
+  ('orange', 50, 0.2);
+CREATE TABLE
+INSERT 0 5
+practicedb=# SELECT * FROM store;
+ id | product_name | qty | price
+----+--------------+-----+-------
+  1 | apple        |  10 |     1
+  2 | pear         |   5 |     2
+  3 | banana       |  10 |   1.5
+  4 | lemon        | 100 |   0.1
+  5 | orange       |  50 |   0.2
+(5 rows)
+
+practicedb=#

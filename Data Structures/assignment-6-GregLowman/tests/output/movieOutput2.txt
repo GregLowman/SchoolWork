@@ -1,0 +1,82 @@
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> MOVIE: American History X DIRECTOR: Tony Kaye GENRE: Drama
+MOVIE: Avengers: Endgame DIRECTOR: Anthony Russo GENRE: Action
+MOVIE: Avengers: Infinity War DIRECTOR: Anthony Russo GENRE: Action
+MOVIE: Back to the Future DIRECTOR: Robert Zemeckis GENRE: Adventure
+MOVIE: Casablanca DIRECTOR: Michael Curtiz GENRE: Drama
+MOVIE: City Lights DIRECTOR: Charles Chaplin GENRE: Comedy
+MOVIE: Coco DIRECTOR: Lee Unkrich GENRE: Animation
+MOVIE: Gladiator DIRECTOR: Ridley Scott GENRE: Action
+MOVIE: Modern Times DIRECTOR: Charles Chaplin GENRE: Comedy
+MOVIE: Once Upon a Time in the West DIRECTOR: Sergio Leone GENRE: Western
+MOVIE: Psycho DIRECTOR: Alfred Hitchcock GENRE: Horror
+MOVIE: Spider-Man: Into the Spider-Verse DIRECTOR: Bob Persichetti GENRE: Animation
+MOVIE: Terminator 2: Judgment Day DIRECTOR: James Cameron GENRE: Action
+MOVIE: The Lion King DIRECTOR: Roger Allers GENRE: Animation
+MOVIE: The Pianist DIRECTOR: Roman Polanski GENRE: Biography
+MOVIE: The Usual Suspects DIRECTOR: Bryan Singer GENRE: Crime
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter name of the movie:
+Movie:
+==================
+Name :The Usual Suspects
+Director :Bryan Singer
+Genre :Crime
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter the name of the director
+Movies Directed By: Bryan Singer
+The Usual Suspects GENRE: Crime
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> MOVIE: Avengers: Infinity War DIRECTOR: Anthony Russo GENRE: Action
+MOVIE: Coco DIRECTOR: Lee Unkrich GENRE: Animation
+MOVIE: Modern Times DIRECTOR: Charles Chaplin GENRE: Comedy
+MOVIE: Spider-Man: Into the Spider-Verse DIRECTOR: Bob Persichetti GENRE: Animation
+MOVIE: The Usual Suspects DIRECTOR: Bryan Singer GENRE: Crime
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> The Height of the movie Collection's BST is 6
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Goodbye!
+
+[GRADER] No leaked memory (Good).

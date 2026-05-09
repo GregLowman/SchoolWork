@@ -1,0 +1,57 @@
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Collection is empty.
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter name of the movie:
+Movie not found.
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter the name of the director
+Movies Directed By: Bryan Singer
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> ======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Collection is Empty!
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Goodbye!
+
+[GRADER] No leaked memory (Good).

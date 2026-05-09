@@ -1,0 +1,120 @@
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git log --oneline
+dcaa95c (HEAD -> main, origin/main, origin/HEAD) "Fifth Commit"
+82b5241 "Fourth Commit"
+5424b6a "Third Commit"
+f510328 "Second Commit"
+942e678 "Commit 1"
+490bf7c m
+917fe8e updated text in README.md for stash activity
+d29aee4 m
+cf6592e commit
+4dbaaf1 fixing git commit
+40c876e Merge pull request #3 from CU-CSCI3308-Spring2026/My_Branch
+45d23fe Merge pull request #2 from CU-CSCI3308-Spring2026/main
+84c395b (origin/My_Branch, My_Branch) "Testing Commit"
+cce3712 (origin/feature-branch-fetch) Merge pull request #1 from CU-CSCI3308-Spring2026/My_Branch
+682074d Mergin changes with return value 1
+7ef5bce Version - main 2
+01996b7 (Greg's_Branch) Version - Greg : 1
+ba93c2b updated README.md with team details
+c937234 Initial commit
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ ls
+README.md            git_merge_conflict.txt.txt  revert-activity.txt
+docker-compose.yaml  git_pull_request.png
+git_helper.sh        main.cpp
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ cat revert-activity.txt
+This is the first edit (1)
+This is the second edit (2)
+This is the third edit (3)
+This is the fourth edit (4)
+This is the fifth edit (5)glowman@GregsLaptop:~/lab-2-shell-scripting-ve
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git log --oneline
+dcaa95c (HEAD -> main, origin/main, origin/HEAD) "Fifth Commit"
+82b5241 "Fourth Commit"
+5424b6a "Third Commit"
+f510328 "Second Commit"
+942e678 "Commit 1"
+490bf7c m
+917fe8e updated text in README.md for stash activity
+d29aee4 m
+cf6592e commit
+4dbaaf1 fixing git commit
+40c876e Merge pull request #3 from CU-CSCI3308-Spring2026/My_Branch
+45d23fe Merge pull request #2 from CU-CSCI3308-Spring2026/main
+84c395b (origin/My_Branch, My_Branch) "Testing Commit"
+cce3712 (origin/feature-branch-fetch) Merge pull request #1 from CU-CSCI3308-Spring2026/My_Branch
+682074d Mergin changes with return value 1
+7ef5bce Version - main 2
+01996b7 (Greg's_Branch) Version - Greg : 1
+ba93c2b updated README.md with team details
+c937234 Initial commit
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git rever 82b5241
+git: 'rever' is not a git command. See 'git --help'.
+
+The most similar command is
+        revert
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git revert 82b5241
+Auto-merging revert-activity.txt
+CONFLICT (content): Merge conflict in revert-activity.txt
+error: could not revert 82b5241... "Fourth Commit"
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git checkout --theirs -- revert-activity.txt
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ cat revert-activity.txt
+This is the first edit (1)
+This is the second edit (2)
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git add revert-activity.txtit add revert-activity.txt
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git revert --continue
+[main 10cbc7b] Revert ""Fourth Commit""
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git log --oneline
+10cbc7b (HEAD -> main) Revert ""Fourth Commit""
+dcaa95c (origin/main, origin/HEAD) "Fifth Commit"
+82b5241 "Fourth Commit"
+5424b6a "Third Commit"
+f510328 "Second Commit"
+942e678 "Commit 1"
+490bf7c m
+917fe8e updated text in README.md for stash activity
+d29aee4 m
+cf6592e commit
+4dbaaf1 fixing git commit
+40c876e Merge pull request #3 from CU-CSCI3308-Spring2026/My_Branch
+45d23fe Merge pull request #2 from CU-CSCI3308-Spring2026/main
+84c395b (origin/My_Branch, My_Branch) "Testing Commit"
+cce3712 (origin/feature-branch-fetch) Merge pull request #1 from CU-CSCI3308-Spring2026/My_Branch
+682074d Mergin changes with return value 1
+7ef5bce Version - main 2
+01996b7 (Greg's_Branch) Version - Greg : 1
+ba93c2b updated README.md with team details
+c937234 Initial commit
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$
+
+
+
+
+
+Question 1
+	I believe you can revert multiple commits with the correct modifiers attached to the command
+
+
+
+
+Question 2
+	For me when there was conflict I had to provide information to git / WSL on what to do during said conflict
+
+
+
+
+
+
+
+
+
+
+
+

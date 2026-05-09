@@ -1,0 +1,161 @@
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> MOVIE: Fantastic Mr. Fox DIRECTOR: Animation GENRE: Wes Anderson
+MOVIE: In Bruges DIRECTOR: Comedy GENRE: Martin McDonagh
+MOVIE: Iron Man DIRECTOR: Action GENRE: Jon Favreau
+MOVIE: Letters from Iwo Jima DIRECTOR: Action GENRE: Clint Eastwood
+MOVIE: Life of Pi DIRECTOR: Adventure GENRE: Ang Lee
+MOVIE: Shaun of the Dead DIRECTOR: Comedy GENRE: Edgar Wright
+MOVIE: The Fall DIRECTOR: Adventure GENRE: Tarsem Singh
+MOVIE: The Man from Earth DIRECTOR: Drama GENRE: Richard Schenkman
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+Movie not found!
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> MOVIE: Fantastic Mr. Fox DIRECTOR: Animation GENRE: Wes Anderson
+MOVIE: In Bruges DIRECTOR: Comedy GENRE: Martin McDonagh
+MOVIE: Iron Man DIRECTOR: Action GENRE: Jon Favreau
+MOVIE: Letters from Iwo Jima DIRECTOR: Action GENRE: Clint Eastwood
+MOVIE: Life of Pi DIRECTOR: Adventure GENRE: Ang Lee
+MOVIE: Shaun of the Dead DIRECTOR: Comedy GENRE: Edgar Wright
+MOVIE: The Fall DIRECTOR: Adventure GENRE: Tarsem Singh
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> MOVIE: Fantastic Mr. Fox DIRECTOR: Animation GENRE: Wes Anderson
+MOVIE: In Bruges DIRECTOR: Comedy GENRE: Martin McDonagh
+MOVIE: Iron Man DIRECTOR: Action GENRE: Jon Favreau
+MOVIE: Life of Pi DIRECTOR: Adventure GENRE: Ang Lee
+MOVIE: Shaun of the Dead DIRECTOR: Comedy GENRE: Edgar Wright
+MOVIE: The Fall DIRECTOR: Adventure GENRE: Tarsem Singh
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> MOVIE: Fantastic Mr. Fox DIRECTOR: Animation GENRE: Wes Anderson
+MOVIE: In Bruges DIRECTOR: Comedy GENRE: Martin McDonagh
+MOVIE: Iron Man DIRECTOR: Action GENRE: Jon Favreau
+MOVIE: Life of Pi DIRECTOR: Adventure GENRE: Ang Lee
+MOVIE: Shaun of the Dead DIRECTOR: Comedy GENRE: Edgar Wright
+MOVIE: The Fall DIRECTOR: Adventure GENRE: Tarsem Singh
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> MOVIE: Fantastic Mr. Fox DIRECTOR: Animation GENRE: Wes Anderson
+MOVIE: In Bruges DIRECTOR: Comedy GENRE: Martin McDonagh
+MOVIE: Iron Man DIRECTOR: Action GENRE: Jon Favreau
+MOVIE: Life of Pi DIRECTOR: Adventure GENRE: Ang Lee
+MOVIE: Shaun of the Dead DIRECTOR: Comedy GENRE: Edgar Wright
+MOVIE: The Fall DIRECTOR: Adventure GENRE: Tarsem Singh
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+The closest parent to both the movies is: The Fall
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+The closest parent to both the movies is: In Bruges
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Goodbye!
+
+[GRADER] No leaked memory (Good).

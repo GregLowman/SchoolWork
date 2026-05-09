@@ -1,0 +1,17 @@
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git merge main
+Auto-merging main.cpp
+CONFLICT (content): Merge conflict in main.cpp
+Automatic merge failed; fix conflicts and then commit the result.
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git add main.cpp
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git commit -m "Mergin changes with return value 1"
+[My_Branch 682074d] Mergin changes with return value 1
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 393 bytes | 196.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:CU-CSCI3308-Spring2026/lab-2-shell-scripting-version-control-GregLowman.git
+   01996b7..682074d  My_Branch -> My_Branch

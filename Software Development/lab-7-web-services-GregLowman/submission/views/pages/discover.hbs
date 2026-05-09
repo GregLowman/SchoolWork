@@ -1,0 +1,17 @@
+{{> message}}
+
+<div class="container my-4">
+  <div class="row g-4">
+    {{#each results}}
+    <div class="col-12 col-lg-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{this.name}}</h5>
+          <p class="card-text">{{this.date}}</p>
+          <a href="{{this.url}}" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>

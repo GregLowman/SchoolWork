@@ -1,0 +1,22 @@
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git branch
+  Greg's_Branch
+* My_Branch
+  main
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git fetch orgin featur-branch-fetch
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git fetch --all
+From github.com:CU-CSCI3308-Spring2026/lab-2-shell-scripting-version-control-GregLowman
+ * [new branch]      feature-branch-fetch -> origin/feature-branch-fetch
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$
+
+
+Question 1
+	No I do not see the branch  
+Question 2
+	Now I see the branch locally 
+Question 3 
+	running --all pulls all branches to my machine 

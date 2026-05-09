@@ -1,0 +1,124 @@
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> MOVIE: Interstellar DIRECTOR: Christopher Nolan GENRE: Adventure
+MOVIE: It's a Wonderful Life DIRECTOR: Frank Capra GENRE: Drama
+MOVIE: Saving Private Ryan DIRECTOR: Steven Spielberg GENRE: Drama
+MOVIE: Star Wars DIRECTOR: George Lucas GENRE: Action
+MOVIE: The Green Mile DIRECTOR: Frank Darabont GENRE: Crime
+MOVIE: The Silence of the Lambs DIRECTOR: Jonathan Demme GENRE: Crime
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter the Name of the movie
+Enter the director of the movie
+Enter the genre of the movie
+New movie Added!
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter the Name of the movie
+Enter the director of the movie
+Enter the genre of the movie
+New movie Added!
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter the Name of the movie
+Enter the director of the movie
+Enter the genre of the movie
+New movie Added!
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> MOVIE: Interstellar DIRECTOR: Christopher Nolan GENRE: Adventure
+MOVIE: It's a Wonderful Life DIRECTOR: Frank Capra GENRE: Drama
+MOVIE: Joker DIRECTOR: Crime GENRE: Todd Phillips
+MOVIE: Saving Private Ryan DIRECTOR: Steven Spielberg GENRE: Drama
+MOVIE: Star Wars DIRECTOR: George Lucas GENRE: Action
+MOVIE: The Green Mile DIRECTOR: Frank Darabont GENRE: Crime
+MOVIE: The Prestige DIRECTOR: Drama GENRE: Christopher Nolan
+MOVIE: The Silence of the Lambs DIRECTOR: Jonathan Demme GENRE: Crime
+MOVIE: Whiplash DIRECTOR: Drama GENRE: Damien Chazelle
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter name of the movie:
+Movie:
+==================
+Name :Star Wars
+Director :George Lucas
+Genre :Action
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Enter the name of the director
+Movies Directed By: George Lucas
+Star Wars GENRE: Action
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> MOVIE: Joker DIRECTOR: Crime GENRE: Todd Phillips
+MOVIE: Star Wars DIRECTOR: George Lucas GENRE: Action
+MOVIE: The Prestige DIRECTOR: Drama GENRE: Christopher Nolan
+MOVIE: Whiplash DIRECTOR: Drama GENRE: Damien Chazelle
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> The Height of the movie Collection's BST is 4
+======Main Menu======
+1. Show the collection of all movies
+2. Add a movie
+3. Search the movie by the movie name
+4. Display the movies directed by a Director
+5. Display the leaf nodes of the movies BST
+6. Display the height of the movies BST
+7. Quit
+> Goodbye!
+
+[GRADER] No leaked memory (Good).

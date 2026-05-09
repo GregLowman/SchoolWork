@@ -1,0 +1,160 @@
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 1
+Empty!
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 3
+Hello;Adele;False
+NULL
+Done!
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 1
+Not empty!
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 5
+Hello
+Song: Hello liked!
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 3
+Despacito;Luis Fonsi, Daddy Yankee;True
+Hello
+Done!
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 3
+Perfect;Ed Sheeran;False
+Hello
+Done!
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 3
+Shape of You;Ed Sheeran;True
+Despacito
+Done!
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 2
+Displaying songs
+==================
+[ Hello, Adele, <3 ] -> [ Perfect, Ed Sheeran, </3 ] -> [ Despacito, Luis Fonsi, Daddy Yankee, <3 ] -> [ Shape of You, Ed Sheeran, <3 ] -> NULL
+==================
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 4
+Hello
+[ Hello, Adele, <3 ]
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 6
+Ed Sheeran
+[ Perfect, Ed Sheeran, </3 ]
+[ Shape of You, Ed Sheeran, <3 ]
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 6
+Arctic Monkeys
+No songs found.
+Select a numerical option:
++=====Main Menu=========+
+ 1. Is the playlist empty?
+ 2. Display the playlist.
+ 3. Add new song.
+ 4. Search song by name.
+ 5. Like a song.
+ 6. Get playlist by artist.
+ 7. Quit 
++-----------------------+
+#> Option is: 7
+Quitting!

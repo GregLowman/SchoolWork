@@ -1,0 +1,154 @@
+/* =========================
+   Global
+========================= */
+
+
+:root {
+  --page-bg: #f7eacb;          /* soft tan background */
+  --surface: #ffffff;          /* cards / navbar */
+  --border: rgba(0, 0, 0, 0.1);
+  --text: #1a1a1a;
+  --muted: rgba(0, 0, 0, 0.65);
+  --accent: #0d6efd;           /* keep Bootstrap blue */
+  --radius: 18px;
+}
+
+
+body {
+  background: var(--page-bg) ;
+  color: var(--text);
+}
+
+/* A consistent page gutter (Bootstrap container-fluid goes full width) */
+.container-fluid {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* =========================
+   Navbar
+========================= */
+.navbar {
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+/* Brand text */
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* Make nav links feel nicer */
+.navbar .nav-link {
+  border-radius: 12px;
+  padding: 0.45rem 0.75rem;
+}
+
+.navbar .nav-link:hover {
+  background: rgba(13, 110, 253, 0.08);
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+}
+
+/* Right icon spacing */
+.navbar .navbar-brand.ms-auto img {
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  padding: 2px;
+}
+
+/* =========================
+   Bio Card
+========================= */
+/* Target your specific card (card + mb-3) */
+.card.mb-3 {
+  max-width: 880px;              /* wider than 540 so it breathes */
+  margin: 2rem auto 3rem auto;   /* center it */
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;             /* keeps rounded corners clean */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  background: var(--surface);
+}
+
+/* Make the image fill its column nicely */
+.card.mb-3 img.img-fluid {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Card text polish */
+.card .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card .card-text {
+  color: var(--muted);
+}
+
+/* The Resume link in the small text */
+.card .text-body-secondary a.nav-link {
+  display: inline-block;
+  padding: 0;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.card .text-body-secondary a.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Footer
+========================= */
+footer.bg-body-tertiary {
+  border-top: 1px solid var(--border);
+}
+
+/* Make the icon buttons consistent even though they’re anchors */
+footer a.btn.btn-link {
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer a.btn.btn-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon size */
+footer i {
+  font-size: 1.15rem;
+}
+
+/* Copyright strip (you currently use inline style; this still polishes it) */
+footer .text-center.p-3 {
+  color: var(--muted);
+}
+
+/* =========================
+   Responsive tweaks
+========================= */
+@media (max-width: 768px) {
+  .card.mb-3 {
+    margin: 1.25rem auto 2rem auto;
+  }
+
+  /* Give the image a fixed height on mobile so it doesn’t get awkward */
+  .card.mb-3 img.img-fluid {
+    height: 240px;
+  }
+}

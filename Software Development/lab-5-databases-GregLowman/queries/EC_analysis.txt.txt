@@ -1,0 +1,27 @@
+In a text file queries/EC_analysis.txt, discuss the performance of your queries from Part A - C.4 and Part B.
+
+For each query, explain why you chose the specific SQL constructs (e.g., joins, CTEs, subqueries) and how they impact performance.
+
+Include at least one alternative way to write the same query and discuss their potential performance differences in queries/lab5_ec_load.sql.
+
+1. I chose to select all of the data in the movies table to display all of the necessary data. It was then ordered by imbd rating returning only the top movie. This could be costly due to the ORDER BY but I am limiting to only one so this should be a low cost operation.
+
+2. I again chose all data from the movies table, only not I had to join the movies, actors, and movies_to_actors tables which shouldn't affect performance due to the small table sizes. The highest cost operation here is the WHERE to filter for Leonardo di Caprio but it was necessary. 
+
+3. Again the whole movies table was required for output, but I then ordered by the year of release. Similar to number 1, this could be very costly but I Limit to 3 which should help with maintaining performance.
+
+4. Aside from selecting the movies table, I joined platforms with movies through their id's. The WHERE could be costly, but the table is incredibly small so it shouldn't be an issue. I could have refined my selection down but I felt it was appropriate to display all of the movies data.
+
+5. My select statement is much more refined in this query. I then joined the movies, actors, and movies_to_actors tables, followed by grouping the results by id and name. The GROUP BY is the most costly operation I have used yet. Following my grouping is the order and limit statements, which compared to GROUP BY should be negligible. 
+
+**** While creating this document I decided it was possible to refine my select statements down to provide a more clear table as a result. Therefore my prior queries have been updated to have a select statement to only show data I thought that was necessary for the question asked.*****
+
+6. I selected only the movie titles from the movies table and then joined the movies, genres, and movies_to_genre tables. I filtered with a WHERE and proceeded to order by he revenue. The WHERE statement will require the most memory but again is a necessary filter for the desired data. 
+
+7. This was a simple update query that could not be optimized any. The large the table is the more this operation will cost. 
+
+8. I selected both the names of the platforms and then a count of the movies in the movies table. I then had to join the platforms and movies tables through their IDs. The GROUP BY will require the most memory, but this is necessary to keep the required data bound together.
+
+9.For grouping purposes I was required to select the actors id along with the name and the sum of their gross revenue. I then joined the movies, actors, and movies_to_actors tables. The grouping required the actors names and ids so that I could order them by their overall gross revenues. 
+
+10. I only needed the actors name for my select statement, but a lot of joining was required. I needed to join the movies_to_actors, movies_to_genres, actors, genres, and movies tables. All of these join statements would be cost heavy, but in order to filter down like the question asked, it was required. Then I used WHERE to further filter by location genre name. Finally all that was left was to order by the actors name. 

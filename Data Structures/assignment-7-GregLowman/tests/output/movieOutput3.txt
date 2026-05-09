@@ -1,0 +1,97 @@
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Collection is empty.
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter name of the movie:
+Movie not found.
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+Movie not found!
+The closest parent to both the movies is: Error - wrong movie name
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+Movie not found!
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+Movie not found!
+The closest parent to both the movies is: Error - wrong movie name
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+Movie not found!
+The closest parent to both the movies is: Error - wrong movie name
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+Movie not found!
+The closest parent to both the movies is: Error - wrong movie name
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Goodbye!
+
+[GRADER] No leaked memory (Good).

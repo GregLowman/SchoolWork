@@ -1,0 +1,114 @@
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> MOVIE: Amour DIRECTOR: Drama GENRE: Michael Haneke
+MOVIE: Arrival DIRECTOR: Drama GENRE: Denis Villeneuve
+MOVIE: Before Midnight DIRECTOR: Drama GENRE: Richard Linklater
+MOVIE: Captain Fantastic DIRECTOR: Comedy GENRE: Matt Ross
+MOVIE: District 9 DIRECTOR: Action GENRE: Neill Blomkamp
+MOVIE: Edge of Tomorrow DIRECTOR: Action GENRE: Doug Liman
+MOVIE: Jab We Met DIRECTOR: Comedy GENRE: Imtiaz Ali
+MOVIE: Jojo Rabbit DIRECTOR: Comedy GENRE: Taika Waititi
+MOVIE: Moon DIRECTOR: Drama GENRE: Duncan Jones
+MOVIE: Nightcrawler DIRECTOR: Crime GENRE: Dan Gilroy
+MOVIE: Sing Street DIRECTOR: Comedy GENRE: John Carney
+MOVIE: Star Wars: Episode VII - The Force Awakens DIRECTOR: Action GENRE: J.J. Abrams
+MOVIE: The Artist DIRECTOR: Comedy GENRE: Michel Hazanavicius
+MOVIE: The Irishman DIRECTOR: Biography GENRE: Martin Scorsese
+MOVIE: The Wrestler DIRECTOR: Drama GENRE: Darren Aronofsky
+MOVIE: Thor: Ragnarok DIRECTOR: Action GENRE: Taika Waititi
+MOVIE: X-Men: Days of Future Past DIRECTOR: Action GENRE: Bryan Singer
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter name of the movie:
+Movie:
+==================
+Name :Captain Fantastic
+Director :Comedy
+Genre :Matt Ross
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+Movie not found!
+The closest parent to both the movies is: Error - wrong movie name
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+Movie not found!
+The closest parent to both the movies is: Error - wrong movie name
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+The closest parent to both the movies is: Sing Street
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the movie:
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Enter the name of the first movie (Movie1):
+Enter the name of the second movie (Movie2):
+The closest parent to both the movies is: Sing Street
+======Main Menu======
+1. Show movie collection
+2. Add a movie
+3. Search a movie
+4. Remove a movie
+5. Rotate the tree at given movie node
+6. Find the closest parent of two movies
+7. Quit
+> Goodbye!
+
+[GRADER] No leaked memory (Good).

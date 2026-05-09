@@ -1,0 +1,4 @@
+This is sample text for my first lab 
+My name is Greg Lowman
+I am a junior 
+My majors are Computer Science and Physics 

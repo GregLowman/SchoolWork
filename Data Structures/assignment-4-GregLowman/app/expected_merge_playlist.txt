@@ -1,0 +1,29 @@
+Select a numerical option:
++=====Main Menu=========+
+ 1. Produce loop and find loop length in the playlist 
+ 2. Remove part of music playlist 
+ 3. Merge music playlists 
++-----------------------+
+#> Option is: 3
+====== Building Playlist 1 ======
+How many songs do you want to enter? 2
+Enter song details (songName;artistNames;liked): Perfect;Ed Sheeran;1
+Enter song details (songName;artistNames;liked): Shape of You;Ed Sheeran;1
+Displaying songs
+==================
+[ Perfect, Ed Sheeran, <3 ] -> [ Shape of You, Ed Sheeran, <3 ] -> NULL
+==================
+====== Building Playlist 2 ======
+How many songs do you want to enter? 3
+Enter song details (songName;artistNames;liked): Hello;Adele;0
+Enter song details (songName;artistNames;liked): Closer;Chainsmokers;1
+Enter song details (songName;artistNames;liked): Blinding Lights;The Weeknd;1
+Displaying songs
+==================
+[ Hello, Adele, </3 ] -> [ Closer, Chainsmokers, <3 ] -> [ Blinding Lights, The Weeknd, <3 ] -> NULL
+==================
+Executing mergeTwoPlaylists() Function...
+Displaying songs
+==================
+[ Perfect, Ed Sheeran, <3 ] -> [ Hello, Adele, </3 ] -> [ Shape of You, Ed Sheeran, <3 ] -> [ Closer, Chainsmokers, <3 ] -> [ Blinding Lights, The Weeknd, <3 ] -> NULL
+==================

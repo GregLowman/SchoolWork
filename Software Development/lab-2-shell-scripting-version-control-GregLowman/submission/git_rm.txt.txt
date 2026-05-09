@@ -1,0 +1,60 @@
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ touch remove.txt
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git add .
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git commit
+Aborting commit due to empty commit message.
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git commit
+Aborting commit due to empty commit message.
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git commit "FixCommit"
+error: pathspec 'FixCommit' did not match any file(s) known to git
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git commit
+[feature-branch-rebase 59bb991] Fix Commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file1.txt
+ create mode 100644 remove.txt
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git push
+fatal: The current branch feature-branch-rebase has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature-branch-rebase
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git rm remove.txt
+rm 'remove.txt'
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ ls
+README.md            file1.txt      git_merge_conflict.txt.txt  main.cpp
+docker-compose.yaml  git_helper.sh  git_pull_request.png
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git commit
+[feature-branch-rebase 7bbf5f1] Final Fix
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 remove.txt
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git rm --cashed remove.txt
+error: unknown option `cashed'
+usage: git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch]
+              [--quiet] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+              [--] [<pathspec>...]
+
+    -n, --[no-]dry-run    dry run
+    -q, --[no-]quiet      do not list removed files
+    --[no-]cached         only remove from the index
+    -f, --[no-]force      override the up-to-date check
+    -r                    allow recursive removal
+    --[no-]ignore-unmatch exit with a zero status even if nothing matched
+    --[no-]sparse         allow updating entries outside of the sparse-checkout cone
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$ git rm --cached remove.txt
+fatal: pathspec 'remove.txt' did not match any files
+glowman@GregsLaptop:~/lab-2-shell-scripting-version-control-GregLowman$
+
+
+Question 1
+	The file was no longer on my computer 
+Question 2
+	If you would like to keep the file on the branch for everyone else you could only delete on your local machine to preserve it on the other branches 
+Question 3
+	revert to a previous branch commit 
