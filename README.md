@@ -26,7 +26,7 @@ Seven incremental labs building toward full-stack development, starting from the
 
 Things got more interesting with a Node.js and Express REST API server paired with Docker Compose and a Postman collection, then a full-stack web service with session-based authentication, a discovery page pulling from the Ticketmaster API, and server-side Handlebars rendering.
 
-The course closed with a group final project — Daily Dev Mix — a Spotify companion app where users pick an activity "vibe," track their listening session live via the Spotify API, and automatically generate a playlist from that session's data. Built with Node.js, Express, PostgreSQL, and Handlebars, deployed on Railway. That one has its own repo.
+The course closed with a group final project — Daily Dev Mix — a Spotify companion app where users pick an activity "vibe," track their listening session live via the Spotify API, and automatically generate a playlist from that session's data. Built with Node.js, Express, PostgreSQL, and Handlebars, deployed on Railway. That one has its own repo at https://github.com/Daily-Dev-Mix/Daily-Dev-Mix
 
 ---
 
